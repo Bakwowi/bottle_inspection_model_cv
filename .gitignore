@@ -1,5 +1,72 @@
+# Dataset and data directories
 Krones_dataset/
 data
 Krones challenge
 CV-Notes.docx
+
+# API token
+Kaggle_API_Token - KGAT_0fc0d774712.txt
+
+# Image files
 *.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Model files
+*.pt
+*.pth
+*.h5
+*.pkl
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
