@@ -1,5 +1,6 @@
 # Dataset and data directories
 Krones_dataset/
+Krones_dataset_cv/
 data
 Krones challenge
 CV-Notes.docx
