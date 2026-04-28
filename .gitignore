@@ -1,6 +1,6 @@
 # Dataset and data directories
 Krones_dataset/
-Krones_dataset_cv/
+Krones_training_dataset-cv/
 train_val_data_cv/
 data
 Krones challenge
