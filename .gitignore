@@ -7,6 +7,8 @@ CV-Notes.docx
 
 # API token
 
+# zip files
+*.zip
 
 # Image files
 *.png
