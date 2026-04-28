@@ -1,0 +1,5 @@
+/kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/images
+/kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/labels
+/kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/test_images
+/kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/adjusted_annotations.json
+/kaggle/input/datasets/bakwowijunior/krones-training-set/image_data.yaml

@@ -1,7 +1,7 @@
 # 1. Path settings
-path: C:\Users\Bakwowi Junior\Documents\school-documents\4th-semester-SS-26\Computer Vision\project\Krones_dataset_cv  # dataset root dir
-train: C:\Users\Bakwowi Junior\Documents\school-documents\4th-semester-SS-26\Computer Vision\project\Krones_dataset_cv\images # train images (relative to 'path')
-val: C:\Users\Bakwowi Junior\Documents\school-documents\4th-semester-SS-26\Computer Vision\project\Krones_dataset\final_val_images # val images (relative to 'path')
+path: /kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv  # dataset root dir
+train: /kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/images # train images (relative to 'path')
+val: /kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/test_images # val images (relative to 'path')
 # test:  # optional
 
 # 2. Multi-Class Definitions
