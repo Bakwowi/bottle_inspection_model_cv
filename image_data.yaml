@@ -1,7 +1,10 @@
 # 1. Path settings
-path: /kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv  # dataset root dir
-train: /kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/images # train images (relative to 'path')
-val: /kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/test_images # val images (relative to 'path')
+# path: /kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv  # dataset root dir
+# train: /kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/images # train images (relative to 'path')
+# val: /kaggle/input/datasets/bakwowijunior/krones-training-set/Krones_dataset_cv/Krones_dataset_cv/test_images # val images (relative to 'path')
+path: Krones_training_dataset-cv  # dataset root dir
+train: Krones_training_dataset-cv/train/images  # train images (relative to 'path')
+val: Krones_training_dataset-cv/val/images  # val images (relative to 'path')
 # test:  # optional
 
 # 2. Multi-Class Definitions

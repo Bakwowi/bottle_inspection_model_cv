@@ -5,6 +5,7 @@ train_val_data_cv/
 data
 Krones challenge
 CV-Notes.docx
+runs/
 
 # API token
 
