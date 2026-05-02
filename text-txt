@@ -1,2 +1,4 @@
 error file 
 0d64352f-0cf6-498f-949a-6a8a6d8c8b6d_000000003648.png
+
+train: /kaggle/input/datasets/bakwowijunior/krones-training-dataset-cv/train/images/ffcd00a0-3f80-4d7d-a438-2491c0d6eaf5_000000019990.png: ignoring corrupt image/label: non-normalized or out of bounds coordinates [     1.9167      1.3774]
