@@ -248,3 +248,6 @@ if __name__ == "__main__":
 
     best_ckpt = train(cfg, resume_from=args.resume)
     print(f"\nBest checkpoint saved at: {best_ckpt}")
+
+import json
+txt = "hello world"
