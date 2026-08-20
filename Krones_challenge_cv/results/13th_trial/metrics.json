@@ -1,0 +1,14 @@
+{
+  "threshold": 0.231445,
+  "f1_faulty": 0.935813,
+  "f1_macro": 0.915867,
+  "precision_faulty": 0.885203,
+  "recall_faulty": 0.992561,
+  "accuracy": 0.920596,
+  "roc_auc": 0.99258,
+  "pr_auc": 0.995056,
+  "tp": 3069.0,
+  "tn": 1812.0,
+  "fp": 398.0,
+  "fn": 23.0
+}

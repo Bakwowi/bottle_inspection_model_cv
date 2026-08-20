@@ -1,0 +1,86 @@
+
+  7%|▋         | 1/15 [02:23<33:33, 143.80s/it]
+conf=0.01  F1=0.9330  P=0.8789  R=0.9942  FP=422  FN=18
+ 13%|█▎        | 2/15 [04:47<31:10, 143.87s/it]
+conf=0.02  F1=0.9436  P=0.8992  R=0.9925  FP=343  FN=23
+ 20%|██        | 3/15 [07:11<28:46, 143.88s/it]
+conf=0.03  F1=0.9469  P=0.9055  R=0.9922  FP=319  FN=24
+ 27%|██▋       | 4/15 [09:35<26:22, 143.86s/it]
+conf=0.04  F1=0.9484  P=0.9082  R=0.9922  FP=309  FN=24
+ 33%|███▎      | 5/15 [11:59<23:58, 143.83s/it]
+conf=0.05  F1=0.9492  P=0.9098  R=0.9922  FP=303  FN=24
+ 40%|████      | 6/15 [14:23<21:34, 143.85s/it]
+conf=0.10  F1=0.9518  P=0.9170  R=0.9893  FP=276  FN=33
+ 47%|████▋     | 7/15 [16:46<19:10, 143.85s/it]
+conf=0.15  F1=0.9526  P=0.9217  R=0.9857  FP=258  FN=44
+ 53%|█████▎    | 8/15 [19:10<16:46, 143.83s/it]
+conf=0.20  F1=0.9538  P=0.9274  R=0.9818  FP=237  FN=56
+ 60%|██████    | 9/15 [21:34<14:23, 143.85s/it]
+conf=0.25  F1=0.9544  P=0.9317  R=0.9783  FP=221  FN=67
+ 67%|██████▋   | 10/15 [23:58<11:59, 143.84s/it]
+conf=0.26  F1=0.9544  P=0.9325  R=0.9773  FP=218  FN=70
+ 73%|███████▎  | 11/15 [26:22<09:35, 143.85s/it]
+conf=0.27  F1=0.9541  P=0.9338  R=0.9753  FP=213  FN=76
+ 80%|████████  | 12/15 [28:46<07:11, 143.83s/it]
+conf=0.28  F1=0.9541  P=0.9349  R=0.9740  FP=209  FN=80
+ 87%|████████▋ | 13/15 [31:09<04:47, 143.84s/it]
+conf=0.29  F1=0.9542  P=0.9355  R=0.9737  FP=207  FN=81
+ 93%|█████████▎| 14/15 [33:33<02:23, 143.88s/it]
+conf=0.30  F1=0.9540  P=0.9357  R=0.9731  FP=206  FN=83
+100%|██████████| 15/15 [35:57<00:00, 143.85s/it]
+conf=0.35  F1=0.9535  P=0.9390  R=0.9685  FP=194  FN=97
+
+ min_rec  best_F1   conf    prec     FP     FN
+    0.99   0.9492   0.05  0.9098    303     24
+    0.98   0.9538   0.20  0.9274    237     56
+    0.97   0.9544   0.25  0.9317    221     67
+    0.96   0.9544   0.25  0.9317    221     67
+    0.95   0.9544   0.25  0.9317    221     67
+    0.90   0.9544   0.25  0.9317    221     67
+
+
+Analyzing missed FAULTY at conf=0.25
+
+Missed FAULTY (false negatives): 67
+
+Ground-truth FAULTY-triggering categories on missed bottles:
+    28  Contamination dark
+    20  Scuffing heavy
+    17  Scuffing
+     9  Contamination light
+     7  Mold
+     3  Chip
+     3  Glass shard
+     3  No base visible
+     1  Break / Crack
+     1  Foreign object - washing machine
+     1  Foreign object - manual cleaning
+
+
+False positives at conf=0.25: 221
+
+Ground-truth categories on falsely flagged bottles:
+   393  Scuffing
+   188  Water drop
+   121  Foam residue
+    55  Air bubble
+    24  Scuffing heavy
+    23  No fault
+    21  Contamination light
+    16  Embossing
+
+preprocess   median=  2.01ms
+inference    median=  5.44ms
+postprocess  median=  0.22ms
+SUM          median=  7.66ms
+
+Note: wall-clock per image will be higher than this SUM — the difference is
+image decode + Python call overhead, which the organizers' harness controls, not you.
+
+ batch   ms/img    img/s
+     1    21.32     46.9
+     8    20.03     49.9
+    16    18.90     52.9
+    32    18.73     53.4
+
+Line-speed requirement: 70,000 bottles/hour = 19.4 img/s
